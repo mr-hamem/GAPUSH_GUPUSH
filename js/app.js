@@ -29,3 +29,5 @@ $(document).ready(function(){
     pauseOnHover: false,
   });
 });
+// aos animation js link
+AOS.init();

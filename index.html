@@ -1,10 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gapush Gupush - Your Favourite Food Zone</title>
-    <link rel="shortcut icon" href="./img/favicon.jpeg" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/gg logo.png" type="image/x-icon">
     <!-- google fonts link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,6 +14,8 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <!-- slick css -->
      <link rel="stylesheet" href="./css/slick.css">
+     <!-- aos css file -->
+      <link rel="stylesheet" href="./css/aos.css">
     <!-- our row css file -->
      <link rel="stylesheet" href="./css/style.css">
     <!-- our responsive css file -->
@@ -38,18 +41,18 @@
         <div class="hdrEnd d-none d-lg-block">
             <div class="container">
                 <div class="row d-flex align-items-center justify-content-between">
-                    <div class="col-lg-1">
+                    <div class="col-lg">
                         <a href="#"><img src="./images/gg logo.png" class="img-fluid" alt="" width="100px"></a>
                     </div>
-                    <div class="navbar col-lg-9 d-flex align-items-center justify-content-end">
+                    <div class="navbar col-lg-9 d-flex align-items-center justify-content-center">
                         <a href="index.html">Home</a>
                         <a href="#about">About</a>
                         <a href="#menu">Menu</a>
                         <a href="#loyalty_card">Loyalty Card</a>
                         <a href="#location_info">Contact</a>
                     </div>
-                    <div class="col-lg-1">
-                        <button class="btn_primary"><a href="#loyalty_card">Get Card</a></button>
+                    <div class="col-lg-2">
+                        <a class="btn_primary" href="#loyalty_card">Get Card</a>
                     </div>
                 </div>
             </div>
@@ -59,7 +62,7 @@
         <div class="mblHdr d-lg-none">
             <div class="container">
                 <div class="row d-flex align-items-center">
-                    <div class="col-6 justify-content-center py-2"><a href="#"><img src="./images/gg logo.png" class="img-fluid" alt="" width="100px"></a></div>
+                    <div class="col-6 justify-content-center py-2"><a href="#"><img src="./images/gg logo.png" class="img-fluid" alt="" width="83px"></a></div>
                     <div class="col-6 d-flex align-items-center justify-content-end">
                         <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop"><iconify-icon icon="lucide:search"></iconify-icon></button>
                         <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"><iconify-icon icon="solar:history-linear"></iconify-icon></button>
@@ -115,8 +118,8 @@
                                 <p>Profile</p>
                             </a>
                         </li>
-                        <a href="#" class="qrcd">
-                            <iconify-icon icon="bi:qr-code"></iconify-icon>
+                        <a href="#loyalty_card" class="qrcd">
+                            <iconify-icon icon="gg:card-diamonds"></iconify-icon>
                         </a>
                     </ul>
                 </div>
@@ -153,11 +156,13 @@
                     <h6>🎓 Student Friendly Pricing</h6>
                     <h1>Delicious Food on a <span>Student Budget</span></h1>
                     <h5>Great taste doesn't have to break the bank. Enjoy hearty meals, quick bites, and fresh ingredients at prices students love.</h5>
-                    <button class="btn_primary">View Menu</button>
-                    <button class="btn_secondary">Get Loyalty Card</button>
+                    <div class="d-flex d-lg-block justify-content-center justify-content-lg-start">
+                        <button class="btn_primary">View Menu</button>
+                        <button class="btn_secondary">Get Loyalty Card</button>
+                    </div>
                     <div class="styles d-flex gap-3">
                         <div class="asides">
-                            <div class="col-lg-4">
+                            <div class="col-lg-5">
                                 <h2>500+</h2>
                                 <p>Happy Customers</p>
                             </div>
@@ -207,7 +212,7 @@
                         <h1>Our <span>Journey</span></h1>
                     </div>
                 </div>
-                <div class="story">
+                <div class="story" data-aos="fade-up">
                     <div class="col-lg-4 col-12">
                         <div class="card1">
                             <img src="./images/fd cart.jpeg" class="img-fluid" alt="">
@@ -240,7 +245,7 @@
 
     <!-- ----------------------------------------------------------------------- -->
     <!--                                 Quality                                 -->
-    <section id="quality">
+    <section id="quality"  data-aos="fade-up" data-aos-duration="300">
         <div class="container">
             <div class="row d-flex">
                 <div class="col-lg-3">
@@ -289,7 +294,7 @@
                 </div>
                 <div class="lists">
                     <div class="col-lg-4 col-12">
-                        <div class="item">
+                        <div class="item"  data-aos="fade-up" data-aos-delay="100" data-aos-duration="450">
                             <img src="./images/hero1.jpeg" alt="">
                             <h2>Burger</h2>
                             <h3>Popular</h3>
@@ -302,9 +307,9 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-12">
-                        <div class="item">
+                        <div class="item"  data-aos="fade-up" data-aos-delay="200" data-aos-duration="450">
                             <img src="./images/subsanwitch.jpeg" alt="">
-                            <h2>Sub Sandwitch</h2>
+                            <h2>Sandwitch</h2>
                             <div class="hack d-flex">
                                 <h4>Sub Sandwitch</h4>
                                 <h5>BDT. 150</h5>
@@ -314,7 +319,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-12">
-                        <div class="item">
+                        <div class="item" data-aos="fade-up"  data-aos-delay="300" data-aos-duration="450">
                             <img src="./images/crm pasta.jpg" alt="">
                             <h2>Pasta</h2>
                             <h3>Popular</h3>
@@ -329,7 +334,7 @@
                 </div>
                 <div class="lists">
                     <div class="col-lg-4 col-12">
-                        <div class="item">
+                        <div class="item" data-aos="fade-up" data-aos-delay="100" data-aos-duration="450">
                             <img src="./images/pinkburger.jpeg" alt="">
                             <h2>Burger</h2>
                             <h3>Popular</h3>
@@ -342,7 +347,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-12">
-                        <div class="item">
+                        <div class="item" data-aos="fade-up" data-aos-delay="200" data-aos-duration="450">
                             <img src="./images/lemonade.jpeg" class="img-fluid" alt="">
                             <h2>Lemonade</h2>
                             <h3>Popular</h3>
@@ -355,7 +360,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-12">
-                        <div class="item">
+                        <div class="item" data-aos="fade-up" data-aos-delay="300" data-aos-duration="450">
                             <img src="./images/sandwitch.JPG" alt="">
                             <h2>Sandwitch</h2>
                             <h3>Popular</h3>
@@ -588,7 +593,7 @@
                             <p>8:00 AM - 9:00 PM</p>
                         </div>
                         <div class="special_offer">
-                            <div class="d-flex">
+                            <div class="d-flex align-items-center">
                                 <span>SPECIAL</span>
                             <div class="special_offer_details">
                             <h6>Student Discount Hours</h6>
@@ -710,6 +715,8 @@
  <script src="./js/jquery-3.7.1.min.js"></script>
 <!-- slick js file -->
  <script src="./js/slick.min.js"></script>
+ <!-- aos js file -->
+  <script src="./js/aos.js"></script>
 <!-- iconify icons website cdn link -->
  <script src="https://code.iconify.design/iconify-icon/3.0.0/iconify-icon.min.js"></script>
 <!-- bootstrap version 5 minified js file -->

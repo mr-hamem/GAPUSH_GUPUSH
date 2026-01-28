@@ -26,7 +26,7 @@ a{
 ul,li{
     list-style: none;
 }
-h1,h2,h3,h4,h5,h6,ul,ol,p,span{
+h1,h2,h3,h4,h5,h6,ul,ol,p,span,address,a{
     margin: 0;
     padding: 0;
 }
@@ -40,7 +40,7 @@ body{
     font-family: var(--main_font);
 }
 .btn_primary {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   background-color: var(--primary-color);
   color: var(--background-color);
@@ -61,7 +61,7 @@ body{
     background-color: var(--background-color);
     color: var(--primary-color);
     border-radius: 50px;
-    padding: 12px 30px;
+    padding: 12px 15px;
     border: 2px solid var(--primary-color);
 }
 
@@ -108,8 +108,7 @@ header {
 
 .hdrTop a:hover {
     color: var(--font-color);
-    padding-bottom: 2px;
-    border-bottom: 1px solid var(--font-color);
+    text-decoration: underline;
 }
 
 .hdrTop a:last-child {
@@ -122,15 +121,19 @@ header {
 }
 
 .hdrEnd .navbar a {
-    margin-right: 16px;
+    margin-right: 44px;
     color: var(--font-color);
-    font-weight: 400;
-    font-size: 16px;
+    font-weight: 600;
+    font-size: 18px;
     transition: .25s;
 }
 
 .hdrEnd .navbar a:hover {
     color: var(--primary-color);
+}
+
+.mblHdr {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 4px;
 }
 
 .mblHdr button {
@@ -248,10 +251,11 @@ header {
 
 .login span .twt {
     font-size: 28px;
-    padding: 14px 12px;
+    padding: 16px 15px;
     border-radius: 50%;
     background-color: var(--font-color);
     color: #F1F3F4;
+    line-height: 0.2;
 }
 /* -------------------------------------------------------------------------- */
 
@@ -259,16 +263,15 @@ header {
 /*                                   Banner                                   */
 #banner {
     background-color: var(--background-color);
-    max-width: 1440px;
     width: 100%;
     height: 700px;
-    margin: 165px auto;
+    margin: 124px auto;
 }
 
 #banner .lside h6 {
     display: inline-block;
     margin: 112px 0 47px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
     padding: 12px;
     border-radius: 20px;
@@ -364,7 +367,7 @@ header {
 }
 
 .hdingg h1 {
-    font-size: 44px;
+    font-size: 40px;
     font-weight: 500;
     margin-bottom: 24px;
 }
@@ -659,6 +662,11 @@ header {
     width: 545px;
     border-radius: 40px;
     padding: 18px 15px;
+    transition: .25s;
+}
+
+#loyalty_card .ctaBtn:hover{
+    filter: brightness(80%);
 }
 #loyalty_card .ctaBtn a{
     color: var(--main_color);
@@ -669,12 +677,12 @@ header {
     text-align: center;
     margin-top: 20px;
 }
-.loyalty_card_details .card_details{
-    width: 215px;
-    height: 250px;
+.loyalty_card_details .card_details {
+    width: 380px;
+    height: 224px;
     background: var(--card_color);
     border-radius: 15px;
-    padding: 25px;
+    padding: 25px 25px 0;
     transition: 0.3s;
 }
 .loyalty_card_details .card_details:hover{
@@ -724,7 +732,7 @@ header {
     font-size: 13px;
     position: absolute;
     top: 208px;
-    right: 160px;
+    right: 150px;
 }
 /* loyalty cards css ends here */
 /* google location section css starts here */
@@ -748,6 +756,10 @@ header {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     margin: 15px 0 0 0;
     height: 160px;
+    transition: .25s;
+}
+#location .location_info:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 #location .location_info h6{
     margin: 10px 0;
@@ -766,6 +778,10 @@ header {
 #location .location_info a{
     color: var(--main_color);
     font-weight: 500;
+    transition: .25s;
+}
+#location .location_info a:hover{
+    font-weight: 600;
 }
 #location .opening_info h4 span iconify-icon{
     color: var(--main_color);
@@ -783,11 +799,19 @@ header {
     padding: 20px 25px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     border-radius: 10px;
+    transition: .25s;
+}
+#location .opening_info:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 #location .opening_info.last_part{
     margin-top: 15px;
     color: var(--text_color);
     background: var(--main_color);
+    transition: .25s;
+}
+#location .opening_info.last_part:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 3px 6px 12px;
 }
 #location .opening_info.last_part span{
     color: var(--text_color);
@@ -818,6 +842,11 @@ header {
     display: inline-block;
     margin-top: 15px;
     border-radius: 50%;
+    transition: .25s;
+}
+#location .opening_info ul li a:hover{
+    color: var(--text_color);
+    background: var(--main_3rd_colour);
 }
 #location .opening_info .days{
     border-bottom: 1px solid #ccc;
@@ -832,6 +861,7 @@ header {
     padding: 17px 25px;
     border-radius: 10px;
     margin-top: 15px;
+    position: relative;
 }
 #location .opening_info .special_offer_details{
     font-size: 14px;
@@ -841,7 +871,7 @@ header {
     background: var(--main_color);
     font-size: 15px;
     color: var(--text_color);
-    padding: 5px 7px;
+    padding: 5px 12px;
     border-radius: 15px;
     height: 30px;
 }
@@ -929,6 +959,11 @@ footer .quick_links a{
     display: inline-block;
     font-size: 13px;
     margin-bottom: 14px;
+    transition: .25s;
+}
+footer .quick_links a:hover{
+    text-decoration: underline;
+    color: #cccdcf;
 }
 footer h4 span{
     padding: 0 5px 0 0;
@@ -939,10 +974,20 @@ footer .services a{
     display: inline-block;
     font-size: 13px;
     margin-bottom: 14px;
+    transition: .25s;
+}
+footer .services a:hover{
+    text-decoration: underline;
+    color: #cccdcf;
 }
 footer .contact_us a{
     color: #cccdcf;
     font-size: 15px;
+    transition: .25s;
+}
+footer .contact_us a:hover{
+    color: #cccdcf;
+    text-decoration: underline;
 }
 footer .contact_wrapper ul li.loc_icon{
     margin-bottom: 23px;
@@ -995,6 +1040,10 @@ footer .newsletter .news_wrapper a{
     border-radius: 25px;
     font-size: 16px;
     display: inline-block;
+    transition: .25s;
+}
+footer .newsletter .news_wrapper:hover a{
+    filter: brightness(80%);
 }
 footer .newsletter .news_wrapper p{
     margin: 10px 0 15px 0;
@@ -1019,6 +1068,8 @@ footer .copyright p.dev_copy{
 }
 footer .copyright p.dev_copy a{
     color: var(--text_color);
+}
+footer .copyright p.dev_copy a:hover{
     text-decoration: underline;
 }
 footer .copyright .policy_links ul{
