@@ -250,12 +250,13 @@ header {
 }
 
 .login span .twt {
-    font-size: 28px;
-    padding: 16px 15px;
+    padding: 12px;
     border-radius: 50%;
-    background-color: var(--font-color);
-    color: #F1F3F4;
-    line-height: 0.2;
+    background-color: #1d9bf0;
+    border: 1px solid #D1E3FF;
+    color: var(--text-color);
+    font-size: 34px;
+    line-height: 0.8;
 }
 /* -------------------------------------------------------------------------- */
 
