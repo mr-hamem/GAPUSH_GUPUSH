@@ -1,0 +1,452 @@
+/* iPhone 4 device responsive starts here */
+@media (max-width: 340px) {
+    #loyalty_card .heading_Wrapper {
+    padding: 0;
+    }
+#loyalty_card::before {
+    width: 60px;
+    height: 60px;
+}
+#loyalty_card::after {
+    width: 60px;
+    height: 60px;
+}
+.heading_Wrapper .details p{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+#loyalty_card .discount {
+    top: -9px;
+    right: 28px;
+    width: 125px;
+}
+.loyalty_card_details .card_details .low_device {
+    color: #99b7c7;
+    font-size: 10px;
+    margin-bottom: 29px;
+}
+#loyalty_card .ctaBtn a {
+    padding: 18px 0;
+}
+.end_para {
+    font-size: 11px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+#location {
+    padding: 1px 0 50px 0;
+}
+#location .location_info {
+    padding: 20px 11px;
+    text-align: center;
+    margin: 15px 0 15px 0;
+    height: 160px;
+}
+#location .opening_info p {
+    font-size: 13px;
+    margin: 8px 0;
+}
+#location .opening_info .special_offer .special_offer_details h6{
+    font-size: 13px;
+}
+#location .opening_info .special_offer span {
+    font-size: 10px;
+    margin-top: 31px;
+}
+#location .opening_info .special_offer .special_offer_details p {
+    font-size: 11px;
+}
+footer h4 {
+    font-size: 15px;
+}
+footer .quick_links a {
+    margin-bottom: 8px;
+}
+footer .services a {
+    margin-bottom: 8px;
+}
+footer .newsletter {
+    padding: 15px 0;
+}
+footer .newsletter .news_wrapper input {
+    width: 135px;
+    margin-right: 1px;
+}
+footer .copyright p.rest_copy {
+    border-right: none;
+    padding-right: 0;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+}
+footer .copyright p {
+    font-size: 13px;
+}
+}
+/* iPhone 4 device responsive ends here */
+/* small to medium screens responsive starts here */
+@media (min-width:341px) and (max-width: 991px) {
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    
+    mblTop address {
+        text-align: center;
+        justify-content: center;
+    }
+
+    #banner {
+        background-color: var(--background-color);
+        max-width: 1440px;
+        width: 100%;
+        height: 989px;
+        margin: 0 auto;
+    }
+
+    .lside {
+        text-align: center;
+    }
+
+    #banner .lside h6 {
+        margin: 130px auto 12px;
+        justify-content: center;
+        font-size: 16px;
+    }
+
+    #banner .lside h1 {
+        margin-bottom: 14px;
+        font-size: 37px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    #banner .lside h5 {
+        font-size: 13px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+
+    #banner .lside button {
+        margin: 0px 20px 18px 0;
+    }
+
+    .asides {
+        justify-content: center;
+        display: flex;
+        text-align: left;
+        margin: 0 auto;
+        gap: 46px;
+    }
+
+    .imgs img {
+        width: 100%;
+        height: 400px;
+        margin: 37px auto;
+    }
+
+    .imgs .sticker {
+        bottom: 0;
+        right: 0;
+        padding: 12px 16px;
+    }
+
+    .sticker h3 {
+        font-size: 27px;
+        font-weight: 500;
+    }
+
+    #about .hding h2 {
+        font-size: 30px;
+        margin: 184px auto 20px;
+    }
+
+    #about .hding p {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+
+    .hdingg h1 {
+        font-size: 30px;
+        font-weight: 500;
+        margin: 8px 0;
+    }
+
+    #menu .hdingg p {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+
+    .story {
+        display: block;
+    }
+
+    .card1 {
+        margin-bottom: 18px;
+    }
+
+    #quality .skill {
+        margin: 24px auto 4px;
+        text-align: center;
+    }
+
+    #menu .hdingg p {
+        margin-bottom: 20px;
+    }
+
+    .lists {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ftr p {
+        font-size: 12px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .mblBtm a {
+        position: relative;
+    }
+
+    .mblBtm ul {
+        display: flex;
+        justify-content: space-between;
+        background-color: #f3eaea;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    }
+
+    .mblBtm ul li {
+        text-align: center;
+        font-size: 33px;
+        padding: 0 8px;
+    }
+
+    .mblBtm ul li iconify-icon {
+        color: #908C8C;
+    }
+
+    .mblBtm ul li iconify-icon:hover {
+        color: #7C2C27;
+    }
+    
+    .mblBtm ul li p {
+        display: block;
+        font-size: 12px;
+        color: #908C8C;
+    }
+
+    .mblBtm ul li:hover p {
+        color: #7C2C27;
+    }
+
+    .mblBtm ul li button {
+        border: none;
+        background-color: transparent;
+    }
+
+    .mblBtm .qrcd {
+        position: absolute;
+        top: -35%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 28px;
+        padding: 8px 14px;
+        background-color: #7C2C27;
+        color: #F7EDEF;
+        border-radius: 50%;
+        box-shadow: 2px 5px 7px 2px rgba(124,44,39,0.71);
+        line-height: 1.5;
+    }
+    #loyalty_card .heading_Wrapper {
+    padding: 0;
+    }
+#loyalty_card::before {
+    width: 70px;
+    height: 70px;
+}
+.end_para {
+    font-size: 10px;
+}
+#loyalty_card .details p{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.card_wrapper {
+    margin-top: 15px;
+}
+.loyalty_card_details .card_details {
+    width: 250px;
+}
+#loyalty_card .loyalty_card_details .card_details {
+    width: 90%;
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+#loyalty_card .date{
+    width: fit-content;
+}
+#loyalty_card .discount {
+    top: -1px;
+    right: 15px;
+}
+#loyalty_card h4 {
+    text-align: center;
+}
+#loyalty_card::after {
+    width: 70px;
+    height: 70px;
+}
+    #loyalty_card .membershipBenefits p{
+        font-size: 14px;
+    }
+    #loyalty_card .membershipBenefits span{
+        margin-left: 3px;
+    }
+    #loyalty_card .ctaBtn {
+    width: 365px;
+    height: 45px;
+    padding: 10px 15px;
+}
+    #loyalty_card .ctaBtn a {
+    padding: 0px 58px;
+}
+#location {
+    padding: 10px 0 40px 0;
+}
+#location .heading p{
+    margin: 15px 0;
+    font-size: 14px;
+}
+#location .location_info {
+    padding: 12px 11px;
+    margin: 15px 0 15px 0;
+    text-align: center;
+    height: 160px;
+}
+#location .location_info h6 {
+    margin: 10px 0;
+    text-align: center;
+}
+#location .location_info p {
+    font-size: 13px;
+}
+#location .location_info span{
+    display: block;
+    text-align: center;
+}
+#location .location_info a {
+    display: inline-block;
+    margin-top: 11px;
+}
+#location .opening_info h4 {
+    text-align: center;
+}
+#location .opening_info .special_offer .special_offer_details p {
+    font-size: 12px;
+}
+#location .opening_info .special_offer .special_offer_details h6{
+    font-size: 14px;
+}
+#reservation{
+    padding: 0;
+}
+footer {
+    padding: 20px 0 20px 0;
+    margin-bottom: 80px;
+}
+footer .rest_descrip h4 {
+    font-size: 25px;
+    text-align: center;
+}
+footer .contact_us h4 {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 34px;
+}
+footer .contact_wrapper ul li.loc_icon {
+    margin-bottom: 4px;
+    margin-right: 7px;
+}
+footer .newsletter .news_wrapper input {
+    width: 200px;
+    height: 45px;
+    padding: 5px 12px;
+    margin-right: 0px;
+}
+footer .newsletter .news_wrapper a {
+    padding: 10px 11px;
+    font-size: 16px;
+}
+footer .copyright p.rest_copy {
+    border-right: none;
+    padding-right: 0;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+}
+footer .copyright p.dev_copy {
+    margin-top: 10px;
+    text-align: center;
+    display: block;
+    font-size: 14px;
+}
+}
+/* small to medium screens responsive ends here */
+/* small to medium starts */
+@media (min-width: 576px) and (max-width: 767px){
+    footer .contact_wrapper ul li.loc_icon {
+    margin-bottom: 4px;
+    margin-right: 7px;
+}
+}
+@media (min-width: 768px) and (max-width: 991px){
+    footer .contact_wrapper ul li.loc_icon {
+    margin-bottom: 24px;
+    margin-right: 7px;
+}
+}
+/* small to medium ends */
+/* large screens responsive starts here */
+@media (min-width: 992px) and (max-width: 1199.98px){
+    #loyalty_card .discount {
+    top: 208px;
+    right: 108px;
+}
+#loyalty_card .ctaBtn {
+    padding: 0px 0px;
+}
+#loyalty_card .ctaBtn a {
+    padding:0;
+    display: block;
+    height: 40px;
+    padding-top: 10px;
+}
+footer .newsletter .news_wrapper input {
+    width: 325px;
+}
+#location .location_info a {
+    display: inline-block;
+    margin-top: 17px;
+}
+}
+/* large screens responsive ends here */
+/* extra large screens responsive starts here */
+@media (min-width: 1200px) and (max-width: 1399.98px){
+#loyalty_card .discount {
+    top: 228px;
+    right: 74px;
+}
+}
+/* extra large screens responsive ends here */
+/* extra extra large screens responsive starts here */
+@media (min-width: 1400px){
+#loyalty_card .discount {
+    right: 195px;
+}
+}
+/* extra extra large screens responsive ends here */
